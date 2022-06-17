@@ -1,0 +1,245 @@
+
+
+/* ヘッダー */
+
+header{
+  /* background-color: #00ced1; */
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: linear-gradient(to bottom, #F2E5E8, #E1EAF6);
+}
+
+a{
+  text-decoration: none;
+}
+
+header h1{
+  padding-left: 50px;
+  padding-top: 16px;
+  display: flex;
+}
+
+.logo{
+  margin-left: 40px;
+}
+
+.a-logo{
+  display: flex;
+  position: relative;
+  color: rgba(143, 97, 97, 1);
+}
+
+.a-logo:hover{
+  text-decoration: none;
+  color: rgba(143, 97, 97, 0.7);
+}
+
+.fa-leaf{
+  position: absolute;
+  top: 3px;
+}
+
+.page-title{
+  margin-left: 8px;
+  margin-top: 3px;
+  font-size: 1.6rem;
+  top: 8px;
+  color: rgba(61, 61, 61, 1);
+}
+
+.a-logout{
+  display: inline-block;
+  background-color: rgba(61, 61, 61, 1);
+  color: white;
+  padding: 10px;
+  margin: 15px 30px 0px 0px;
+  border-radius: 5px;
+}
+
+.a-logout:hover{
+  text-decoration: none;
+  color: white;
+  background-color: rgba(61, 61, 61, 0.7);
+}
+
+.a-frame-register{
+  display: inline-block;
+  background-color: rgba(143, 97, 97, 1);
+  color: white;
+  padding: 10px;
+  margin: 15px 30px 0px 0px;
+  border-radius: 5px;
+}
+
+.a-frame-register:hover{
+  text-decoration: none;
+  color: white;
+  background-color: rgba(143, 97, 97, 0.7);
+}
+
+.col-md-8{
+  margin-top: 30px;
+}
+
+.day-blank{
+  background-color: rgba(172, 173, 173, 1);
+  border: 1px solid white;
+}
+
+.sun{
+  color: rgba(250, 100, 100, 1);
+}
+
+.sat{
+  color: rgba(100, 173, 250, 1);
+}
+
+.this-month-button{
+  background-color: rgba(143, 97, 97, 1);
+  border: none;
+  margin-right: 10px;
+  margin-top: 1px;
+  color: white;
+}
+
+.month-title-position{
+  float: right;
+}
+
+.calendar-title{
+  margin-top: 8px;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+td{
+  width: 100px;
+  height: 70px;
+}
+
+.rsv_number_layout{
+  display: flex;
+}
+
+.rsv_number_margin{
+  margin-left: 3px;
+}
+
+.rsv-detail-container{
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.rsv-detail-title{
+  display: flex;
+}
+
+.rsv-detail-title-date{
+  margin-right: 5px;
+}
+
+.rsv-detail-container table{
+  width: 500px;
+}
+
+.rsv-detail-container table tr th{
+  padding: 3px;
+  width: 150px;
+}
+.rsv-detail-container table tr td{
+  padding: 3px;
+}
+
+select{
+  border: 0.3px solid black;
+  width: 100px;
+}
+
+.past{
+  background-color: rgba(209, 207, 207, 1);
+  border: 1px solid white;
+}
+
+.font-size{
+  font-size: 0.7rem;
+}
+
+.cancel-button{
+  display: inline-block;
+  background-color: rgba(201, 90, 71, 1);
+  color: whitesmoke;
+  font-size: 0.7rem;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.cancel-button:hover{
+  background-color: rgba(201, 90, 71, 0.7);
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.select-box-flame{
+  font-size: 0.7rem;
+  width: 70px;
+}
+
+.rsv-button{
+  float: right;
+}
+
+.remote-frame input{
+  width: 30px;
+  height: 22px;
+  padding-left: 3px;
+  background-color: rgba(250, 235, 215, 0.5);
+}
+
+.office-frame input{
+  width: 30px;
+  height: 22px;
+  padding-left: 3px;
+  background-color: rgba(225, 250, 237, 0.5);
+}
+
+.remote-frame ,.office-frame{
+  font-size: 0.8rem;
+}
+
+.frame-box{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.remote-frame{
+  display: block;
+}
+
+.remote-frame.none{
+  display: none;
+}
+
+.office-frame{
+  display: block;
+}
+
+.office-frame.none{
+  display: none;
+}
+
+.day-sun .day{
+  color: rgba(250, 100, 100, 1);
+}
+
+.day-sat .day{
+  color: rgba(100, 173, 250, 1);
+}
+
+.day-close .day{
+  color: rgba(250, 100, 100, 1);
+}

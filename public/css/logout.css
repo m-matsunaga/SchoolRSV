@@ -1,0 +1,110 @@
+#container{
+  background: linear-gradient(to bottom, #F2E5E8, #E1EAF6);
+  height:100vh
+}
+
+a{
+  text-decoration: none;
+}
+
+.login-contents{
+  width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.logo{
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.login-form-container{
+  width: 250px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.input{
+  width: 250px;
+  background-color: #dcdcdc;
+  margin: 0px auto 10px auto;
+  padding: 3px;
+}
+
+.submit{
+  background-color: rgba(143, 97, 97, 1);
+  color: white;
+  width: 250px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 2px 0px;
+}
+
+.submit:hover{
+  background-color: rgba(143, 97, 97, 0.8);
+  color: white;
+  width: 250px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 2px 0px;
+}
+
+.login-link{
+  display: inline-block;
+  margin-top: 10px;
+  width: 250px;
+  background-color: rgba(97, 96, 96, 1);
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 2px 0px;
+}
+
+.login-link:hover{
+  display: inline-block;
+  margin-top: 10px;
+  width: 250px;
+  background-color: rgba(97, 96, 96, 0.8);
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 2px 0px;
+}
+
+.register-link{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link-a{
+  color: #800000;
+}
+
+.register-link-a:hover{
+  color: #b22222;
+}
+
+.added-contents{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.added-message{
+  color: rgba(97, 96, 96, 1);
+  font-size: 1.2rem;
+}
+
+.add-to-login{
+  display: inline-block;
+  background-color: rgba(143, 97, 97, 1);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
