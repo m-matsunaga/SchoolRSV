@@ -11,11 +11,13 @@ class RsvFramesTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('users')->insert([
-            ['username' => 'miori',
-            'email' => 'miori@gmail.com',
-            'password' => bcrypt('miori0000'),
-            'admin_role' => '1'],
+        DB::table('rsv_frames')->insert([
+            ['rsv_frame' => 'リモ1部'],
+            ['rsv_frame' => 'リモ2部'],
+            ['rsv_frame' => 'リモ3部'],
+            ['rsv_frame' => '本社1部'],
+            ['rsv_frame' => '本社2部'],
+            ['rsv_frame' => '本社3部'],
         ]);
     }
 }
