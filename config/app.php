@@ -229,8 +229,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-        'authorityClass' => app\Common\authorityClass::class
-
+        'authorityClass' => app\Common\authorityClass::class,
+        'FrameRegister' => app\FrameRegister\FrameRegister::class
     ],
 
 ];
