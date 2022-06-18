@@ -18,7 +18,7 @@ class Reserves extends Migration
             $table->integer('user_id');
             $table->string('rsv_date');
             $table->integer('rsv_frame_id');
-            $table->string('attendance');
+            $table->string('attendance')->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->default(DB::raw('current_timestamp on update current_timestamp'));
         });
